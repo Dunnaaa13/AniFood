@@ -1,0 +1,74 @@
+/*
+ Theme Name:   CollerAnge
+ Description:  CollerAnge is a Child theme for Coller. This theme has been given a Yellowish Twist and been blended with more amazing Colors. It is fully responsive in Nature, support Full width Page Layouts and Social Icons.
+ Author:       Rohit Tripathi
+ Author URI:   http://rohitink.com
+ Template:     coller
+ Version:      1.0.0.1
+ Tags:         light, dark, orange, two-columns, right-sidebar, responsive-layout, white, featured-images
+ Text Domain:  collerange
+ License: 	   GNU GPL v3.0
+ LicenseURI:   http://gnu.org/licenses/gpl.html
+*/
+
+@import url("../coller/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+a {
+	color: #E98416;
+	text-decoration: none;
+}
+body {
+	font-family: "Droid sans", "Times", serif;
+}
+.main-navigation {
+	background: #FFF;
+	clear:both;
+	display: block;
+	float: left;
+	margin-bottom: 30px;
+	border: solid 1px #ddd;
+}
+.main-navigation a { font-weight: normal; }
+
+.main-navigation a:hover {
+	background: #f6e659;
+	border-top: #e6b327 solid 4px;
+	padding-top: 16px;
+}
+h1.entry-title a:hover {
+	text-decoration: none;
+	color: #E98416;
+}
+.widget a:hover {
+	color: #E98416;
+}
+.widget_search input[type=submit] {
+	display: inline;
+	background: #E98416;
+	border: none;
+	padding: 7px 15px;
+	height: 29px;
+	box-shadow: none;
+	border-radius: 0px;
+	border-bottom: #060 solid 5px;
+	position: relative;
+	   top: -3px;
+	color: #fff;
+	text-shadow: none;
+	text-transform: uppercase; 
+}
+#primary, #secondary {
+	background: #FFF;
+	border: solid 1px #ddd;
+}
+.main-navigation .current_page_item > a {
+	background: #EEE;
+	border-top: solid 3px #222;
+}
+.main-navigation li:hover > a {
+	background: #ddd;
+	border-top: #e98416 solid 4px;
+	padding-top: 16px;
+}

@@ -1,0 +1,140 @@
+/* sb slider */
+.latest-hap {
+  position: relative;
+}
+.sb-slider {
+  .sb-description {
+    pointer-events: none;
+    z-index: 88;
+    background: fade(black, 40%);
+    border-left-color: @accent;
+    padding: 10px;
+    h3 {
+      margin: 0;
+    }
+
+  }
+}
+.nav-arrows {
+  position: absolute;
+  top: 50%;
+  a {
+    background-color: fade(black,50%);
+    .transition(0.2s all ease);
+    box-shadow: 0px 0px 1px @accent;
+    outline: none;
+    &:hover {
+      background-color: fade(@accent,50%);
+    }
+  }
+  a:first-child {
+    right: -535px;
+    @media screen {
+      @media (max-width: 1199px) {
+        right: -435px;
+      }
+      @media (max-width: 991px) {
+        right: -675px;
+      }
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+  a:nth-child(2) {
+    right: -47px;
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      right: -57px;
+    }
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+
+
+/* top slider */
+#slider-bg {
+  width: 100%;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.slider-wrapper {
+
+  margin-bottom: -11px;
+  .nivoSlider {
+    box-shadow: none;
+    border: solid 5px lighten(@background,5%);
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.11);
+  }
+  .nivo-controlNav {
+    position: relative;
+    bottom: 16px;
+    z-index: 9;
+    .transition(0.4s all ease);
+    a {
+      background-image: none;
+      width: 28px;
+      height: 3px;
+      margin: 0 5px;
+      background: @accent;
+      position: relative;
+      .transition(0.4s all ease);
+      &:hover {
+        background: fade(@accent, 50%);
+      }
+    }
+    .active {
+      top: -3px;
+    }
+  }
+  .nivo-caption {
+    bottom: 60px;
+    left: 55px;
+    right: auto;
+    font-family: inherit;
+    background: none;
+    @media screen and (max-width: 600px) {
+      .transform(scale(0.6));
+      bottom: 15px;
+      left: -50px;
+    }
+    a { text-decoration:  none;
+      border-bottom: none; }
+    .slide-title {
+      display: inline-block;
+      font-size: 20px;
+      padding: 7px 10px;
+      text-shadow: 0px 1px 0px black;
+      background: fade(black,80%);
+      font-weight: bold;
+      margin-bottom: 5px;
+      border-radius: 4px;
+    }
+    .slide-desc span {
+      background: fade(@accent,80%);
+      /* border-left: solid 4px black; */
+      display: inline-block;
+      font-size: 16px;
+      padding: 3px 8px;
+      border-radius: 3px;
+      text-shadow: 1px 1px 0px black;
+    }
+    .slide-cta span {
+      background: fade(white,40%);
+      font-weight: bold;
+      display: inline-block;
+      font-size: 14px;
+      margin-top: 5px;
+      padding: 4px 10px;
+      border: solid 2px white;
+      text-shadow: 1px 1px 0px black;
+      border-radius: 5px;
+      &:hover {
+        background: fade(White,80%);
+      }
+    }
+  }
+}

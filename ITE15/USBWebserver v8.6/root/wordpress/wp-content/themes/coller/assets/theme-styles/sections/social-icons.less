@@ -1,0 +1,56 @@
+#masthead {
+  .social-icons {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-top: 45px;
+    @media screen and (max-width: 767px) {
+      float: none;
+      margin-bottom: 40px;
+      margin-top: 10px;
+    }
+    .style1,.style2,.style3{
+      height: 40px;
+      width: 40px;
+    }
+  }
+
+  .social-icons a {
+    margin-right: 3px;
+    text-align: center;
+    .coller-default{
+      width: 40px;
+      height: 40px;
+      .transition(ease 0.4s);
+    }
+
+    &:hover {
+      .coller-default{
+        .transform(scale(1.05) rotate(360deg));
+      }
+
+
+    }
+    .style1{
+      .transition(ease all 0.4s);
+      border:transparent 2px solid;
+      border-radius: 26px;
+      &:hover{
+        transform: scale(1.2);
+        border:@background 2px solid;
+        border-radius: 26px;
+      }
+    }
+
+    .style2{
+      transition: transform 0.3s ease;
+      &:hover{
+        transform: translateY(10px);
+        transform: scale(1.8) translateY(0px) translateX(0px);
+        //transition: transform 0.5s ease;
+      }
+    }
+
+  }
+}

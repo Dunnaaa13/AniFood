@@ -1,0 +1,56 @@
+.coller {
+  border-bottom: none;
+  padding-bottom: 25px;
+  &:after {
+    content: "";
+    height: 10px;
+    width: ~"calc(100% - 15px)";
+    background: @pattern;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-top: 10px;
+  }
+  header {
+    h1.entry-title {
+      a {
+        color: @content;
+        &:hover {
+          color: @accent;
+        }
+      }
+      margin-top: 0;
+    }
+    .postedon {
+      background: darken(@sbg, 1%);
+      padding: 2px 5px;
+      font-size: 12px;
+      a {
+        color: lighten(@content, 20%);
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    margin-bottom: 15px;
+  }
+  .featured-thumb {
+    border-top: none;
+  }
+  .out-thumb {
+    .entry-excerpt {
+      font-size: 16px;
+      line-height: 24px;
+      color: darken(@content,4%);
+      padding-left: 3px;
+      display: inline-block;
+      padding-top: 5px;
+    }
+    .readmore {
+      padding-left: 3px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

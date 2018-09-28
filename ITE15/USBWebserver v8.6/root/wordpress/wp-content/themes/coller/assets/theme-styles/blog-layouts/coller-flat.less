@@ -1,0 +1,22 @@
+.coller-flat {
+  .featured-thumb {
+    border-top: none;
+  }
+  .out-thumb .postedon {
+    color: @content;
+    font-weight: normal;
+  }
+  border-bottom: none;
+  padding-bottom: 25px;
+  &:after {
+    content: "";
+    height: 10px;
+    width: ~"calc(100% - 15px)";
+    background: @pattern;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-top: 10px;
+  }
+
+}

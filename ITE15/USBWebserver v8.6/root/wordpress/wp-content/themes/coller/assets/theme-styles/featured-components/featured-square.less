@@ -1,0 +1,137 @@
+#featured-square{
+  cursor: pointer;
+  overflow: auto;
+  margin-bottom: 20px;
+  .section-title{
+    &:after{
+      background: none;
+    }
+  }
+  @media screen and (max-width: 981px) {
+    .section-title{
+      font-size: 20px;
+    }
+    .entry-date, .published{
+      display: none;
+    }
+  }
+  .entry-date, .published{
+   display: none;
+  }
+
+  .featured-thumb {
+    position: relative;
+  }
+  @media screen and (max-width: 981px) {
+      .description,.posted-on{
+        display: none !important;
+      }
+    .featured-thumb {
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+    }
+
+  }
+
+  h3{
+    text-align: center;
+    font-size: 24px;
+    color: @background;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 10px;
+    .posted-on a{
+      color: @background;
+    }
+  }
+
+  h2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 10px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: @onaccent;
+    .transform(translateY(-400%));
+    @media screen and (max-width: 767px) {
+      .transform(translateY(0%));
+    }
+    .transition(1.3s all ease);
+  }
+  p.description {
+    position: absolute;
+    top: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    text-decoration: 1px 0 black;
+    display: block;
+    .transform(translateY(40%));
+    @media screen and (max-width: 767px) {
+      .transform(translateY(0%));
+      opacity: 1;
+    }
+    .transition(0.7s all ease);
+    opacity: 0;
+  }
+  .square-wrapper {
+    cursor: pointer;
+    background: darken(@background, 20%);
+    padding: 5px;
+    overflow: hidden;
+    @media screen and (min-width: 767px){
+    &:hover {
+      h3{
+        display: none;
+      }
+      h2 {
+        .transform(translateY(0%));
+        background: @accent;
+        font-size: 13px;
+      }
+      @media screen and (max-width: 767px) {
+        h2 {
+          &:hover{
+            .transform(translateY(0%));
+            opacity: 0;
+          }
+        }
+      }
+      p.description {
+        opacity: 1;
+        .transform(translateY(0%));
+      }
+      @media screen and (max-width: 767px) {
+        .transform(translateY(0%));
+        opacity: 1;
+      }
+      .featured-thumb{
+        position: relative;
+        &:before{
+          content: '';
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          background-color: rgba(0,0,0,0.5);
+        }
+      }
+    }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+/* ---------- Header ------------- */
+#top-bar {
+  background: darken(@background,3%);
+  box-shadow: 0px 2px 2px 1px fade(#000,30%);
+  z-index: 99;
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: none;
+    box-shadow: none;
+  }
+
+}
+#masthead {
+  position: relative;
+  z-index: 90;
+  .layer {
+  }
+  #text-title-desc {
+    clear: none;
+    float: left;
+    @media screen and (max-width: 768px) {
+      float: none;
+      text-align: center;
+    }
+    vertical-align: middle;
+  }
+
+  h1.site-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0px;
+    a {
+      color: @content;
+    }
+  }
+  h2.site-description {
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 10px;
+    color: @content;
+  }
+
+  #searchicon {
+    background: #eee;
+    border: solid 2px #ddd;
+    padding-top: 6px;
+    padding-bottom: 4px;
+  }
+  @media screen and (max-width: 767px) {
+    text-align: center;
+    .layer {
+    }
+  }
+
+}
+.site-branding {
+  padding: 55px 0;
+  padding-bottom: 50px;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+    float: none;
+    padding-bottom: 5px;
+    display: block;
+    width: 100%;
+  }
+}
+
+#site-logo {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  img {
+    width: 135px;
+    height: auto;
+  }
+  @media screen and (max-width: 768px) {
+    float: none;
+  }
+}
+#social-search {
+  background: darken(@background, 8%);
+  padding: 16px 10px;
+  text-align: center;
+  .searchform {
+    padding-left: 15px;
+    display: inline-block;
+    input {
+      background: darken(@background, 2%);
+      .placeholder (@content,false);
+      font-weight: lighter;
+      padding: 5px 10px;
+      position: relative;
+      top: 1px;
+      border-radius: 0px;
+      min-width: 250px;
+      &:active, &:focus { outline: solid 1px @accent; }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .social-icons {
+      border-right: none;
+      border-bottom: solid 1px #ddd;
+      box-shadow: 0px 1px 0px #f7f7f7;
+      padding-right: 0;
+      padding-bottom: 15px;
+      margin-bottom: 13px;
+    }
+    .searchform {
+      padding-left: 0;
+    }
+  }
+}

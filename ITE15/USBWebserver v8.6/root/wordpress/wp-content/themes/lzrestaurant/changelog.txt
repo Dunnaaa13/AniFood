@@ -1,0 +1,57 @@
+Version 1.0
+	-- Initial Version Released
+	
+Version 1.1
+	-- Change the layout
+	-- Added New Tags.
+	-- Remove Unwanted code.
+	-- Tested upto WP Version 4.9.1
+
+Version 1.2
+	-- Changed the header section.
+	-- Resolved errors.
+
+Version 1.3
+	-- Removed unused tags. 
+	-- Did some styling and customization for better look.
+	-- layout improved.
+	-- Fixed width issue for alignleft/-right elements in the post content
+	-- Switched from wp_print_styles to wp_enqueue_scripts to enqueue scripts and styles
+
+Version 1.4
+	-- Change type = "text" to type = "url" in customizer.
+	-- Updated the theme screenshot and correct license details for the screenshot.
+	-- Add the text translation to some text in customizer.php.
+	-- Done the css changes in sub menus.
+
+Version 1.5
+	-- Added License for pexel images.
+	-- Added changelog.txt file.
+	-- Resolved the responsive error.
+
+Version 1.6
+	-- Added updated fontawesome in theme.
+	-- Added the home link in 404.php file.
+	-- Done the css customization in header.
+
+Version 1.6.1
+	-- Added bootstrap.css file.
+	-- Removed Unsplash images.
+	-- Added License for customizer pro.
+	-- Added the pro theme information in readme.txt file 
+
+Version 1.6.2
+	-- Removed minified bootstrap file.
+
+Version 1.6.3
+	-- Updated Woocommerce.
+	-- Resolved Errors. 
+	-- Removed unused function.
+
+Version 1.6.4
+	-- Done minor bug fixing.
+
+Version 1.6.5
+	-- Potfile in language folder is updated.
+	-- Resolved error occured in files.
+	-- Updated theme with Post Formats.

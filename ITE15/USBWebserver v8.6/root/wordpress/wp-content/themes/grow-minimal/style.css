@@ -1,0 +1,524 @@
+/*
+Theme Name: Grow Minimal
+Theme URI: https://www.thinkupthemes.com/free/grow/
+Author: Think Up Themes
+Author URI: https://www.thinkupthemes.com
+Description: Grow Boxed is the free version of the multi-purpose professional theme (Grow Pro) ideal for a business or blog website. The theme has a responsive layout, HD retina ready and comes with a powerful theme options panel with can be used to make awesome changes without touching any code. The theme also comes with a full width easy to use slider. Easily add a logo to your site and create a beautiful homepage using the built-in homepage layout. Compatible with WooCommerce, WPML, Polylang, Flat Parallax Slider, Photo Gallery and Travel Map, Elementor, Page Builder, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. It's a perfect theme for small businesses (restaurants, wedding planners, sport/medical shops), startups, corporate businesses, online agencies and firms, portfolios, ecommerce (WooCommerce), and freelancers.
+Template: grow
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, editor-style, featured-images, featured-image-header, post-formats, sticky-post, translation-ready, flexible-header, custom-background, grid-layout, footer-widgets, blog, e-commerce, portfolio, rtl-language-support
+Text Domain: grow-minimal
+*/
+
+/* Pre Header Style */
+.pre-header-style2 #pre-header .header-links > ul > li > a {
+	color: #232323;
+	font-weight: 900;
+	border: none;
+	letter-spacing: 0.5px;
+}
+.pre-header-style2 #pre-header .header-links > ul > li:last-child > a {
+	border-right: none;
+}
+.pre-header-style2 #pre-header .header-links > ul > li:first-child > a {
+	padding-left: 0px;
+}
+.pre-header-style2 #pre-header-search .search {
+	outline: none;
+}
+
+/* Header Style */
+.header-style2 #logo {
+	margin: 30px 0px;
+}
+#header-links-inner > .menu,
+#header-search,
+#header-social {
+	text-align: center;
+}
+#header .header-links li,
+#header-sticky .header-links li {
+	float: none;
+	display: inline-block;
+}
+#header .header-links .sub-menu,
+#header-sticky .header-links .sub-menu {
+	text-align: left;
+	background-color: #111;
+	border-bottom: none;
+}
+#header .header-links .sub-menu li,
+#header-sticky .header-links .sub-menu li {
+	display: block;
+}
+.header-style2 #header .header-links .sub-menu a,
+.header-style2 #header-sticky .header-links .sub-menu a {
+	font-weight: 900;
+	letter-spacing: 0.5px;
+}
+.header-style2 #header .header-links > ul > li > a {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+	border-left: none;
+}
+.header-style2 #header .header-links > ul > li:last-child > a {
+	border-right: none;
+}
+.header-style2 #header #header-links,
+.header-style2 #header-sticky #header-sticky-links {
+	background-color: #000;
+}
+
+/* Intro Style */
+#introaction {
+	background-color: #f5f5f5;
+	padding: 70px 10px;
+}
+.action-text h3 {
+	text-transform: uppercase;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+a.themebutton {
+	background-color: transparent;
+	border: 2px solid #ddaf4d;
+	color: #ddaf4d;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+a.themebutton:hover {
+	color: #fff;
+	background-color: #ddaf4d;
+}
+
+/* Featured Style */
+#section-home-inner {
+	margin: 60px auto 30px; 
+}
+.services-builder.style1 .iconimage i {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background: transparent;
+	border: 2px solid #ddaf4d;
+	display: inline-block;
+}
+.services-builder.style1 .iconimage i.fa-inverse {
+	background-color: transparent;
+	color: #ddaf4d;
+	font-size: 36px;
+}
+.services-builder.style1 .iconimage a:hover i.fa-inverse {
+	background-color: #ddaf4d;
+	color: #fff;
+}
+.services-builder .iconmain h3 {
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+}
+.services-builder.style1 .iconmain .iconurl a {
+	margin-top: 10px;
+	background-color: transparent;
+	border: 2px solid #ddaf4d;
+	color: #ddaf4d;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 2px 15px;
+}
+.services-builder.style1 .iconmain .iconurl a:hover {
+	color: #fff;
+	background-color: #ddaf4d;
+}
+
+/* Footer Style */
+#footer {
+	background-color: #000;
+	border-top: 3px solid #ddaf4d;
+}
+#footer-core h3 {
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+#footer .widget_archive li a,
+#footer .widget_categories li a {
+	font-size: 13px;
+}
+#footer .widget_archive li,
+#footer .widget_categories li {
+	margin-bottom: 0px!important;
+}
+#footer-core a, #footer-core .widget li > a:before {
+	color: #fff;
+}
+#footer-core a:hover,
+#footer-core .widget li > a:hover:before {
+	color: #ddaf4d;
+}
+#footer .widget li a {
+	color: #fff;
+}
+#footer .widget li a:hover,
+#footer .widget li a:hover {
+	color: #ddaf4d;
+}
+#footer .widget li {
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+	margin-bottom: 10px;
+}
+#footer .widget li:last-child {
+	margin-bottom: 0px;
+}
+#footer .widget li span {
+	display: block;
+	font-size: 13px;
+	font-weight: 300;
+	font-style: italic;
+}
+#footer .widget_recent_comments li a {
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+}
+#footer .widget_search .search {
+	outline: none;
+	border: 1px solid #333;
+	background-color: #000;
+}
+
+/* Sub Footer Style */
+#sub-footer {
+	background-color: #111;
+}
+#sub-footer, #sub-footer a {
+	font-size: 12px;
+	color: #fff;
+}
+#sub-footer, #sub-footer a:hover {
+	color: #ddaf4d;
+}
+#footer-menu li:after {
+	display: none;
+}
+
+/* Page Heading Style */
+#intro {
+	border-bottom: 3px solid #ddaf4d;
+	background-color: #fff;
+	padding: 45px 0px;
+}
+#intro.option2 .page-title {
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: #1e1e1e;
+}
+#intro.option2 #breadcrumbs {
+	font-size: 13px;
+	color: #1e1e1e;
+}
+#intro.option2 .page-title,
+#intro.option2 #breadcrumbs {
+	width: 100%;
+	float: none;
+	text-align: center;
+	display: inline-block;
+}
+
+/* Blog Posts Style */
+.blog-article.sticky {
+	padding: 0px;
+	background-color: transparent;
+}
+.blog-article.sticky .entry-content {
+	padding: 0px;
+	background-color: transparent;
+}
+.blog-article .blog-title a {
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+}
+.blog-article .blog-title a:hover {
+	color: #1e1e1e;
+	opacity: 0.5;
+}
+.blog-article .entry-meta a {
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+	color: #ddaf4d;
+	margin-right: 15px;
+}
+.blog-article .entry-meta span.tags a {
+	margin-right: 0px;
+}
+.blog-article .entry-meta a:hover {
+	text-decoration: underline;
+}
+.sticky i {
+	color: #ddaf4d;
+	margin-right: 5px;
+}
+.blog-article .entry-meta > span:before {
+	display: none;
+}
+.blog-article .entry-meta:after {
+	display: none;
+}
+.blog-article .entry-meta {
+	margin-bottom: 0px;
+}
+.blog-style1-layout2 .blog-article {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 10px;
+}
+
+/* Pagination Numbers Style */
+.navigation.pagination .nav-links a,
+.navigation.pagination .nav-links span {
+	background-color: transparent;
+	font-weight: 900;
+	color: #7a7a7a;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.navigation.pagination .nav-links a:hover,
+.navigation.pagination .nav-links span:hover {
+	color: #1e1e1e;
+	background-color: transparent;
+}
+.navigation.pagination .nav-links .dots:hover {
+	background-color: transparent;
+	color: #1e1e1e;
+}
+
+/* Side Bar Style */
+.widget_search .search {
+	outline: none;
+	border: 2px solid #eee;
+}
+#sidebar .widget {
+	padding-bottom: 30px;
+	margin-bottom: 40px;
+	border-bottom: 3px solid #1e1e1e;
+}
+#sidebar h3.widget-title {
+	font-weight: 900;
+	font-size: 19px;
+	letter-spacing: 1px;
+}
+#sidebar .widget_recent_entries span,
+#sidebar .widget_recent_comments span {
+	display: block;
+	font-size: 13px;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+	color: #ddaf4d;
+	text-transform: uppercase;
+	margin-top: -5px;
+}
+#sidebar .widget_recent_entries li a,
+#sidebar .widget_recent_comments li a  {
+	font-size: 17px;
+	text-transform: capitalize;
+	color: #1e1e1e;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+}
+#sidebar .widget_recent_entries li a:hover,
+#sidebar .widget_recent_comments li a:hover {
+	color: #ddaf4d;
+}
+#sidebar .widget_recent_entries li,
+#sidebar .widget_recent_comments li {
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+#sidebar .widget_recent_comments li {
+	margin-bottom: 10px;
+}
+#sidebar .widget_recent_entries li:last-child,
+#sidebar .widget_recent_comments li:last-child {
+	border-bottom: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+#sidebar .widget_meta li a,
+#sidebar .widget_archive li a,
+#sidebar .widget_categories li a {
+	font-size: 13px;
+	font-weight: 900;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+	color: #1e1e1e;
+}
+#sidebar .widget_meta li a:hover,
+#sidebar .widget_archive li a:hover,
+#sidebar .widget_categories li a:hover {
+	color: #ddaf4d;
+}
+#sidebar .widget_tag_cloud a {
+	background-color: transparent;
+	font-style: 12px;
+	text-transform: uppercase;
+	color: #1e1e1e;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+	padding: 1px 5px;
+}
+#sidebar .widget_tag_cloud a:hover {
+	color: #fff;
+	background-color: #ddaf4d;
+	padding: 1px 10px;
+}
+
+/* Single Post Style */
+.single .post-title {
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+}
+.single .entry-meta a {
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+	color: #ddaf4d;
+	margin-right: 15px;
+}
+.single .entry-meta span.tags a {
+	margin-right: 0px;
+}
+.single .entry-meta a:hover {
+	text-decoration: underline;
+}
+.sticky i {
+	color: #ddaf4d;
+	margin-right: 5px;
+}
+.single .entry-meta > span:before {
+	display: none;
+}
+.single .entry-meta:after {
+	display: none;
+}
+
+/* Post Navigation Style */
+.nav-previous a,
+.nav-next a {
+	border: 2px solid #ddaf4d;
+	color: #ddaf4d;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	background-color: transparent;
+}
+.nav-previous a:hover,
+.nav-next a:hover {
+	color: #fff;
+	background-color: #ddaf4d;
+}
+#nav-above,#nav-below {
+	border-bottom: 3px solid #1e1e1e;
+}
+
+/* Comments & Leave Comment Style */
+#comments-title h3,
+#reply-title {
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.commentlist {
+	border-bottom: 3px solid #1e1e1e;
+}
+.commentlist article header .comment-meta:after {
+	display: none;
+}
+.comment-author a {
+	font-size: 16px;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+}
+.commentlist article header .comment-meta {
+	font-size: 12px;
+	font-style: italic;
+	text-transform: capitalize;
+}
+.commentlist article header .comment-meta a {
+	color: #5a5a5a;
+}
+.commentlist article header .comment-meta a:hover {
+	color: #ddaf4d;
+}
+.comment .reply a {
+	font-size: 11px;
+	padding: 5px 8px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	background-color: #ddaf4d;
+	color: #fff;
+	border: 2px solid #ddaf4d;
+}
+.comment .reply a:hover {
+	color: #ddaf4d;
+	background-color: transparent;
+}
+#commentform #comment {
+	outline: none;
+	border: 2px solid #eee;
+}
+.themebutton,
+ button,
+ html input[type="button"],
+ input[type="reset"],
+ input[type="submit"] {
+	background-color: transparent;
+	border: 2px solid #ddaf4d;
+	color: #ddaf4d;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 900;
+	letter-spacing: 1px; 	
+}
+.themebutton:hover,
+ button:hover,
+ html input[type="button"]:hover,
+ input[type="reset"]:hover,
+ input[type="submit"]:hover {
+	color: #fff;
+	background-color: #ddaf4d; 	
+}
+.logged-in-as a {
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+	font-size: 13px;
+}
+.logged-in-as a:hover {
+	color: #ddaf4d;
+	text-decoration: underline;
+}
