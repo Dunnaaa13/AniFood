@@ -1,5 +1,5 @@
-[Sat Sep 22 07:49:34.673089 2018] [mpm_winnt:notice] [pid 9144:tid 796] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Sat Sep 22 07:49:34.673089 2018] [mpm_winnt:notice] [pid 9144:tid 796] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Sat Sep 22 07:49:34.673089 2018] [core:notice] [pid 9144:tid 796] AH00094: Command line: 'C:\\Users\\ite15-2\\Documents\\ITE15\\USBWebserver v8.6/apache2/bin/httpd_usbwv8.exe -d C:/Users/ite15-2/Documents/ITE15/USBWebserver v8.6/apache2'
-[Sat Sep 22 07:49:34.756930 2018] [mpm_winnt:notice] [pid 9144:tid 796] AH00418: Parent: Created child process 8888
-[Sat Sep 22 07:49:35.617500 2018] [mpm_winnt:notice] [pid 8888:tid 856] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 03 08:39:08.795811 2018] [mpm_winnt:notice] [pid 8936:tid 808] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Wed Oct 03 08:39:08.795811 2018] [mpm_winnt:notice] [pid 8936:tid 808] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Wed Oct 03 08:39:08.795811 2018] [core:notice] [pid 8936:tid 808] AH00094: Command line: 'C:\\Users\\ite15-2\\Documents\\ITE15\\USBWebserver v8.6/apache2/bin/httpd_usbwv8.exe -d C:/Users/ite15-2/Documents/ITE15/USBWebserver v8.6/apache2'
+[Wed Oct 03 08:39:08.858304 2018] [mpm_winnt:notice] [pid 8936:tid 808] AH00418: Parent: Created child process 6208
+[Wed Oct 03 08:39:09.518706 2018] [mpm_winnt:notice] [pid 6208:tid 808] AH00354: Child: Starting 64 worker threads.
